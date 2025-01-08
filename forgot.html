@@ -1,0 +1,65 @@
+<html>
+<head>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+
+        }
+        form{
+            border:2px solid black;
+            width: 50%;
+            height: 20vh;
+            margin-left: 10%;
+            margin-top: 5%;
+
+        }
+        form h2{
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+        }
+        form label{
+            margin-left: 10%;
+            font-size: 20px;
+        }
+        form input{
+            font-size: 20px;
+        } 
+        form button{
+            font-size: 20px;
+            margin-left: 40%;
+
+        }
+        form button:hover{
+            background-color: brown;
+            color: white;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2>Password Reset</h2>
+        <label for="email">Usermail id:</label>
+        <input type="email" placeholder="enter email" id="email" name="email"required>
+        <br>
+        <br>
+        <label for="pass">Enter Password:</label>
+        <input type="password" placeholder="enter password" id="pass" required>
+        <br>
+        <br>
+        <label for="pass">Confirm Password:</label>
+        <input type="password" placeholder="Confirm  password" id="pass" required>
+        <br>
+        <br>
+        <button onclick="window.location.href='index.html'; return false;">Submit</button>
+
+    </form>
+</body>
+</html>
